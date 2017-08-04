@@ -1,6 +1,6 @@
 # Quali sono le prospettive?
 
-Complimenti! **Sei veramente incredibile**. Siamo orgogliosi! &lt;3
+Complimenti! **Sei veramente incredibile**. Siamo orgogliosi! ♥
 
 ### Cosa si fa ora?
 
