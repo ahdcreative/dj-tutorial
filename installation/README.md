@@ -28,19 +28,14 @@ In questo workshop costruirai un blog, e ci sono alcuni task dedicati all'impost
 
 {% include "/deploy/install_git.md" %}
 
-# Creare un account GitHub
+# Creare un account Heroku
 
-Vai su [GitHub.com](https://www.github.com) e iscriviti per un nuovo account gratuito.
-
-# Creare un account PythonAnywhere
-
-{% include "/deploy/signup_pythonanywhere.md" %}
+Vai su [Heroku.com](https://www.heroku.com) e iscriviti per un nuovo account gratuito.
 
 # Inizia la lettura
 
 Complimenti, ora sei pronta! Se hai un po' di tempo prima del workshop, potrebbe essere utile cominciare a leggere i capitoli iniziali:
 
-  * [Come funziona Internet](../how_the_internet_works/README.md)
 
   * [Introduzione alla riga di comando](../intro_to_command_line/README.md)
 
