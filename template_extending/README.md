@@ -23,7 +23,7 @@ Poi aprilo e copia tutto da `post_list.html` e incollalo sul file `base.html`, c
 {% load staticfiles %}
 <html>
     <head>
-        <title>Django Girls blog</title>
+        <title>Django blog</title>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -31,7 +31,7 @@ Poi aprilo e copia tutto da `post_list.html` e incollalo sul file `base.html`, c
     </head>
     <body>
         <div class="page-header">
-            <h1><a href="/">Django Girls Blog</a></h1>
+            <h1><a href="/">Django Blog</a></h1>
         </div>
 
         <div class="content container">
@@ -58,7 +58,7 @@ Poi nel `base.html`, rimpiazza tutto il tuo `<body>` (tutto quello che si trova 
 ```html
 <body>
     <div class="page-header">
-        <h1><a href="/">Django Girls Blog</a></h1>
+        <h1><a href="/">Django Blog</a></h1>
     </div>
     <div class="content container">
         <div class="row">
