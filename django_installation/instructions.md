@@ -49,8 +49,6 @@ Creare un `virtualenv` su Linux e OS X è semplice, basta digitare: `python3 -m 
 > Error: Command '['/home/eddie/Slask/tmp/venv/bin/python3', '-Im', 'ensurepip', '--upgrade', '--default-pip']' returned non-zero exit status 1
 > ```
 >
->
->
 > Per aggirare il problema utilizza, invece del precedente, il comando `virtualenv`.
 >
 > ```
@@ -106,7 +104,7 @@ OK, abbiamo tutte le dipendenze importanti pronte. Finalmente possiamo installar
 
 ## Installare Django
 
-Ora che hai iniziato ad utilizzare il tuo `virtualenv`, puoi installare Django usando `pip`. Nella console, esegui `pip install django==1.8` \(nota che usiamo un doppio simbolo di uguale: `==`\).
+Ora che hai iniziato ad utilizzare il tuo `virtualenv`, puoi installare Django usando `pip`. Nella console, esegui `pip install django==1.11` \(nota che usiamo un doppio simbolo di uguale: `==`\).
 
 ```
 (myvenv) ~$ pip install django==1.11
