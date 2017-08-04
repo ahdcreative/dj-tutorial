@@ -2,7 +2,6 @@
 
 * [Introduzione](README.md)
 * [Installazione](installation/README.md)
-* [Come funziona Internet](how_the_internet_works/README.md)
 * [Introduzione al command line](intro_to_command_line/README.md)
 * [Installazione di Python](python_installation/README.md)
 * [Code Editor](code_editor/README.md)
