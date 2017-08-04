@@ -42,22 +42,22 @@ Come puoi vedere, Python è una buona calcolatrice. Ora ti starai sicuramente ch
 
 Che ne dici di scrivere il tuo nome? Digitalo tra virgolette così:
 
-    >>> "Ola"
-    'Ola'
+    >>> "Artek"
+    'Artek'
     
 
 Hai appena creato la tua prima stringa! Una stringa è una sequenza di caratteri che possono essere elaborati da un computer. La stringa deve sempre iniziare e finire con lo stesso carattere. Che può essere una virgoletta semplice (`'`) o doppia (`"`) (non c'è differenza!) Le virgolette dicono a Python che il contenuto al loro interno è una stringa.
 
 Le stringhe possono essere legate assieme. Prova questo:
 
-    >>> " Ciao " + "Ola"
-    'Ciao Ola'
+    >>> " Ciao " + "Artek"
+    'Ciao Artek'
     
 
 Puoi anche moltiplicare le stringhe con un numero:
 
-    >>> "Ola" * 3
-    'OlaOlaOla'
+    >>> "Artek" * 3
+    'ArtekArtekArtek'
     
 
 Se devi mettere un apostrofo nella tua stringa, hai due modi per farlo.
@@ -76,19 +76,19 @@ o facendo l'escape dell'apostrofo (cioè trattandolo come un carattere qualunque
 
 Bello, eh? Per vedere il tuo nome in maiuscolo, digita:
 
-    >>> "Ola".upper()
-    'OLA'
+    >>> "Artek".upper()
+    'ARTEK'
     
 
 Hai appena usato la funzione `upper` sulla tua stringa! Una funzione (come `upper()`) è una sequenza di istruzioni che Python deve eseguire su un determinato oggetto (`"Ola"`).
 
 Se vuoi sapere il numero delle lettere presenti nel tuo nome, c'è una funzione anche per quello!
 
-    >>> len("Ola")
-    3
+    >>> len("Artek")
+    5
     
 
-Ti stai chiedendo perché certe volte chiami una funzione con un `.` alla fine di una stringa (come `"Ola".upper()`) ed in altri casi chiami prima una funzione e poi metti la stringa tra parentesi? Beh, in alcuni casi, le funzioni appartengono ad oggetti, come `upper()`, che può essere eseguita solo su stringhe. In questo caso, chiamiamo la funzione **metodo**. Altre volte, le funzioni non appartengono a niente di specifico e possono essere utilizzate su diversi tipi di oggetti, proprio come `len()`. Ecco perché stiamo dando `"Ola"` come un parametro alla funzione `len`.
+Ti stai chiedendo perché certe volte chiami una funzione con un `.` alla fine di una stringa (come `"Artek".upper()`) ed in altri casi chiami prima una funzione e poi metti la stringa tra parentesi? Beh, in alcuni casi, le funzioni appartengono ad oggetti, come `upper()`, che può essere eseguita solo su stringhe. In questo caso, chiamiamo la funzione **metodo**. Altre volte, le funzioni non appartengono a niente di specifico e possono essere utilizzate su diversi tipi di oggetti, proprio come `len()`. Ecco perché stiamo dando `"Artek"` come un parametro alla funzione `len`.
 
 ### Indice
 
@@ -130,22 +130,22 @@ Un concetto importante nella programmazione è quello delle variabili. Una varia
 
 Diciamo che vogliamo creare una nuova variabile chiamata `nome`:
 
-    >>> nome = "Ola"
+    >>> nome = "Artek"
     
 
-Vedi? È facile! è semplicemente: nome è uguale a Ola.
+Vedi? È facile! è semplicemente: nome è uguale a Artek.
 
 Come avrai notato, il programma non ha ritornato nulla, diversamente da prima. Quindi come facciamo a sapere che la variabile esiste? Digita `nome` e premi `enter`:
 
     >>> nome
-    'Ola'
+    'Artek'
     
 
 Evvai! La tua prima variabile :)! Puoi sempre modificare a cosa si riferisce:
 
-    >>> nome = "Sonja"
+    >>> nome = "Vale"
     >>> nome
-    'Sonja'
+    'Vale'
     
 
 La puoi utilizzare anche nelle funzioni:
@@ -326,7 +326,7 @@ Puoi usare il comando `pop()` per cancellare un elemento nella directory. Se vuo
 
     >>> partecipante.pop('numeri_preferiti')
     >>> partecipante
-    {'paese': 'Polonia', 'linguaggio_preferito': 'Python', 'nome': 'Ola'}
+    {'paese': 'Polonia', 'linguaggio_preferito': 'Python', 'nome': 'Artek'}
     
 
 Come puoi vedere dall'output, la coppia chiave-valore corrispondente alla chiave 'numeri_preferiti' è stato cancellata.
@@ -335,7 +335,7 @@ Puoi anche cambiare un valore associato ad una chiave già creata nel dizionario
 
     >>> partecipante['paese'] = 'Germania'
     >>> partecipante
-    {'paese': 'Germania', 'linguaggio_preferito': 'Python', 'nome': 'Ola'}
+    {'paese': 'Germania', 'linguaggio_preferito': 'Python', 'nome': 'Artek'}
     
 
 Come puoi vedere, il valore della chiave `'paese'` è stato cambiato da `'Polonia'` a `'Germania'`. :) Eccitante, vero? Evviva! Hai già imparato un'altra cosa fantastica.
@@ -497,7 +497,7 @@ Se rimani bloccata, chiedi aiuto.
 Ora usa Python per eseguire il codice nel file:
 
     $ python3 python_intro.py
-    Ciao, Django girls!
+    Ciao, AHSubs Design!
     
 
 Perfetto! Hai appena eseguito il tuo primo programma Python salvato su un file. Grande, no?
@@ -557,11 +557,11 @@ Quando viene lanciato, mostrerà:
 Se 2 fosse un numero maggiore di 5, allora andrebbe in esecuzione il secondo comando. Facile, vero? Andiamo a vedere come funziona `elif`:
 
 ```python
-nome = 'Sonja'
-if nome == 'Ola':
-    print('Ciao Ola!')
-elif nome == 'Sonja':
-    print('Ciao Sonja!')
+nome = 'Vale'
+if nome == 'Artek':
+    print('Ciao Artek!')
+elif nome == 'Vale':
+    print('Ciao Vale!')
 else:
     print('Ciao anonimo!')
 ```
@@ -569,7 +569,7 @@ else:
 ed eseguito:
 
     $ python3 python_intro.py
-    Ciao Sonja!
+    Ciao Vale!
     
 
 Hai visto cosa è successo? `elif` ti consente di aggiungere condizioni supplementari che verranno eseguite se nessuna delle condizioni precedenti viene soddisfatta.
@@ -644,10 +644,10 @@ Come puoi vedere, abbiamo dato alla nostra funzione un parametro chiamato `nome`
 
 ```python
 def ciao(nome):
-    if nome == 'Ola':
-        print('Ciao Ola!')
-    elif nome == 'Sonja':
-        print('Ciao Sonja!')
+    if nome == 'Artek':
+        print('Ciao Artek!')
+    elif nome == 'Vale':
+        print('Ciao Vale!')
     else:
         print('Ciao anonimo!')
 
@@ -666,25 +666,25 @@ Ricorda: La funzione `print` è rientrata di 4 spazi rispetto allo statement `if
 Ops, un errore. Fortunatamente, Python ci fornisce un messaggio di errore che ci può servire. Ci dice che la funzione `ciao()` (quella che abbiamo definito) ha un argomento richiesto (chiamato `nome`) e che ci siamo dimenticati di metterlo quando abbiamo chiamato la funzione. Sistemiamolo alla fine del file:
 
 ```python
-ciao("Ola")
+ciao("Artek")
 ```
 
 Ed eseguiamo di nuovo:
 
     $ python3 python_intro.py
-    Ciao Ola!
+    Ciao Artek!
     
 
 E se cambiamo il nome?
 
 ```python
-ciao("Sonja")
+ciao("Vale")
 ```
 
 Ed eseguilo:
 
     $ python3 python_intro.py
-    Ciao Sonja!
+    Ciao Vale!
     
 
 Ora, cosa pensi che succederà se scrivi un altro nome? (non Ola o Sonja) Provaci e vedi se la tua ipotesi è giusta. Dovrebbe stampare questo:
@@ -720,7 +720,7 @@ I programmatori non amano ripetere ciò che scrivono. La programmazione mira a a
 Ti ricordi ancora delle liste? Facciamo una lista di ragazze:
 
 ```python
-ragazze = ['Rachel', 'Monica', 'Phoebe', 'Ola', 'Tu']
+ragazze = ['Rachel', 'Monica', 'Phoebe', 'Vale', 'Tu']
 ```
 
 Vogliamo salutare tutte loro per nome. Abbiamo la funzione `ciao` per farlo, quindi usiamola in loop:
@@ -737,7 +737,7 @@ Qua c'è l'intero codice che sarà nel file:
 def ciao(nome):
     print('Ciao ' + nome + '!') 
 
-ragazze = ['Rachel', 'Monica', 'Phoebe', 'Ola', 'Tu']
+ragazze = ['Rachel', 'Monica', 'Phoebe', 'Vale', 'Tu']
 for nome in ragazze:
     ciao(nome)
     print('Prossima ragazza')
@@ -752,13 +752,13 @@ E quando lo eseguiamo:
     Prossima ragazza
     Ciao Phoebe!
     Prossima ragazza
-    Ciao Ola!
+    Ciao Vale!
     Prossima ragazza
     Ciao You!
     Prossima ragazza
     
 
-Come puoi vedere, tutto quello che metti all'interno di un `for` statement con una spaziatura si ripeterà per ogni elemento della lista `girls`.
+Come puoi vedere, tutto quello che metti all'interno di un `for` statement con una spaziatura si ripeterà per ogni elemento della lista `ragazze`.
 
 Puoi anche utilizzare `for` su numeri usando la funzione `range`:
 
@@ -782,7 +782,7 @@ Nota che il secondo di questi due numeri non è incluso nella lista prodotta da 
 
 ## Indice
 
-È tutto. **Sei grande!** Questo capitolo non era affatto facile, puoi essere orgogliosa di te stessa. Noi siamo fierissimi di te per avercela fatta fino a qui!
+È tutto. **Sei grande!** Questo capitolo non era affatto facile, puoi essere orgogliosa/o di te stessa/o. Sono fierissimo di te per avercela fatta fino a qui!
 
 Potresti desiderare di fare brevemente qualcos'altro - stiracchiati, fai due passi, riposa gli occhi - prima di continuare con il prossimo capitolo. :)
 
