@@ -10,9 +10,9 @@ Un QuerySet, in sostanza, è una lista di oggetti di un determinato Modello. Il 
 
 ## La shell di Django
 
-Apri la tua console locale (non su PythonAnywhere) e digita questo comando:
+Apri la tua console locale (non su Heroku) e digita questo comando:
 
-    (myvenv) ~/djangogirls$ python manage.py shell
+    (myvenv) ~/ahsubsdesign$ python manage.py shell
 
 
 L'effetto dovrebbe essere come questo:
@@ -63,12 +63,12 @@ Importiamo il modello User prima:
 Quali utenti abbiamo nel nostro database? Prova questo:
 
     >>> User.objects.all()
-    <QuerySet [<User: ola>]>
+    <QuerySet [<User: Artek>]>
 
 
 È il superuser che abbiamo creato prima! Ora prendiamo un'istanza del user:
 
-    me = User.objects.get(username='ola')
+    me = User.objects.get(username='Artek')
 
 
 Come puoi vedere, ora prendiamo `(get)` un `User` con un `username` che è uguale a 'ola'. Ben fatto, devi cambiarlo con il tuo username.
