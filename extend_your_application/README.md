@@ -117,9 +117,6 @@ Vicino ad altre righe `from` ed alla fine del file aggiungeremo la nostra *view*
 
 Si, è giunta l'ora di aggiornare la pagina: http://127.0.0.1:8000/
 
-![Visualizzazione elenco post][5]
-
- [5]: images/post_list2.png
 
 Ha funzionato! Ma cosa succede se clicchi su un link nel titolo del post?
 
@@ -157,10 +154,6 @@ Stiamo estendendo ancora una volta il template di base. `base.html`. Nel blocco 
 
 Ok, possiamo aggiornare la nostra pagina e vedere se `Page not found` non c'è più.
 
-![Pagina di dettaglio del post][7]
-
- [7]: images/post_detail2.png
-
 Si! Ha funzionato!
 
 ## Ultima cosa: ora di fare il deploy!
@@ -171,23 +164,7 @@ Sarebbe bello vedere se il tuo sito Web sarà ancora funzionante in PythonAnywhe
     $ git add --all .
     $ git status
     $ git commit -m "Added view and template for detailed blog post as well as CSS for the site."
-    $ git push
+    $ git push heroku master
 
-
-*   Poi, in una [console PythonAnywhere Bash][8]:
-
- [8]: https://www.pythonanywhere.com/consoles/
-
-    $ cd my-first-blog
-    $ source myvenv/bin/activate
-    (myvenv)$ git pull
-    [...]
-    (myvenv)$ python manage.py collectstatic
-    [...]
-
-
-*   Infine, vai su il [Web tab][9] e premi **Reload**.
-
- [9]: https://www.pythonanywhere.com/web_app_setup/
 
 Fatto! Congratulazioni :)
