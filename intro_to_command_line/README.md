@@ -44,7 +44,7 @@ Su Windows, è un segno `>`, come questo:
 
 Ogni comando sarà preceduto da questo simbolo e da uno spazio, ma tu non hai bisogno di digitarlo. Il computer lo farà per te :)
 
-> Solo una piccola nota: nel tuo caso ci dovrebbe essere qualcosa come `C:\Users\ola>` oppure `Olas-MacBook-Air:~ ola$` prima del segno di prompt. È corretto al 100%. In questo tutorial lo semplificheremo al massimo.
+> Solo una piccola nota: nel tuo caso ci dovrebbe essere qualcosa come `C:\Users\ahsubsdesign>` oppure `Artek-MacBook-Air:~ ahsubsdesign$` prima del segno di prompt. È corretto al 100%. In questo tutorial lo semplificheremo al massimo.
 
 ## Il tuo primo comando (YAY!)
 
@@ -61,7 +61,7 @@ oppure
 Premi `invio`. Questo è il nostro risultato:
 
     $ whoami
-    olasitarska
+    ahsubsdesign
     
 
 Come puoi vedere, il computer ha appena stampato il tuo nome utente. Bello, eh?:)
@@ -77,13 +77,13 @@ Ogni sistema operativo ha un insieme di comandi leggermente diverso per la comma
 Sarebbe bello sapere dove siamo adesso, vero? Vediamo. Digita questo commando e premi `invio`:
 
     $ pwd
-    /Users/olasitarska
+    /Users/ahsubsdesign
     
 
 Se sei su Windows:
 
     > cd
-    C:\Users\olasitarska
+    C:\Users\ahsubsdesign
     
 
 Probabilmente vedrai qualcosa di simile sul tuo computer. Quando apri la command-line normalmente inizi sulla tua directory home.
@@ -107,11 +107,11 @@ Cosa c'è dentro? Sarebbe bello scoprirlo. Vediamo come:
 Windows:
 
     > dir
-     Directory of C:\Users\olasitarska
-    05/08/2014 07:28 PM <DIR>      Applications
-    05/08/2014 07:28 PM <DIR>      Desktop
-    05/08/2014 07:28 PM <DIR>      Downloads
-    05/08/2014 07:28 PM <DIR>      Music
+     Directory of C:\Users\ahsubsdesign
+    04/08/2017 11:12 AM <DIR>      Applications
+    04/08/2017 11:12 AM <DIR>      Desktop
+    04/08/2017 11:12 AM <DIR>      Downloads
+    04/08/2017 11:12 AM <DIR>      Music
     ...
     
 
@@ -132,13 +132,13 @@ Windows:
 Controlla ora se ti sei veramente spostato/a:
 
     $ pwd
-    /Users/olasitarska/Desktop
+    /Users/ahsubsdesign/Desktop
     
 
 Windows:
 
     > cd
-    C:\Users\olasitarska\Desktop
+    C:\Users\ahsubsdesign\Desktop
     
 
 Ecco fatto!
@@ -182,7 +182,7 @@ Windows:
     > cd practice
     > mkdir test
     > dir
-    05/08/2014 07:28 PM <DIR>      test
+    04/08/2017 11:12 AM <DIR>      test
     
 
 Congratulazioni! :)
@@ -208,13 +208,13 @@ Usando `..` con il comando `cd` cambierai la tua directory attuale alla director
 Controlla dove ti trovi ora:
 
     $ pwd
-    /Users/olasitarska/Desktop
+    /Users/ahsubsdesign/Desktop
     
 
 Windows:
 
     > cd
-    C:\Users\olasitarska\Desktop
+    C:\Users\ahsubsdesign\Desktop
     
 
 Adesso è l'ora di cancellare la directory `practice`:
