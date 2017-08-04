@@ -10,7 +10,7 @@ Per cui, creiamo ora un **ambiente virtuale** \(chiamato anche un _virtualenv_\)
 
 Tutto quello che devi fare è trovare una cartella in cui vuoi creare il `virtualenv`; la tua home directory, ad esempio. Su Windows potrebbe essere `C:\Users\Name` \(dove `Name` è il nome del tuo login\).
 
-Per questo tutorial useremo una nuova directory `djangogirls` dalla tua home directory:
+Per questo tutorial useremo una nuova directory `ahsubsdesign` dalla tua home directory:
 
 ```
 mkdir ahsubsdesign
