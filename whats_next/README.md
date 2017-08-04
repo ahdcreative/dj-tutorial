@@ -8,7 +8,7 @@ Prenditi una pausa e rilassati. Hai veramente fatto un passo da gigante.
 
 Dopo di che, assicurati di:
 
-* Seguire Django Girls su [Facebook ](https://www.facebook.com/AHSubsDesign/)o [Twitter](https://twitter.com/AHSubsDesign/)  per rimanere aggiornata/o
+* Seguire AHD Creative Solutions su [Facebook ](https://www.facebook.com/AHSubsDesign/)o [Twitter](https://twitter.com/AHSubsDesign/)  per rimanere aggiornata/o
 
 ### Mi puoi consigliare ulteriori risorse?
 
