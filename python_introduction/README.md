@@ -80,7 +80,7 @@ Bello, eh? Per vedere il tuo nome in maiuscolo, digita:
     'ARTEK'
     
 
-Hai appena usato la funzione `upper` sulla tua stringa! Una funzione (come `upper()`) è una sequenza di istruzioni che Python deve eseguire su un determinato oggetto (`"Ola"`).
+Hai appena usato la funzione `upper` sulla tua stringa! Una funzione (come `upper()`) è una sequenza di istruzioni che Python deve eseguire su un determinato oggetto (`"Artek"`).
 
 Se vuoi sapere il numero delle lettere presenti nel tuo nome, c'è una funzione anche per quello!
 
