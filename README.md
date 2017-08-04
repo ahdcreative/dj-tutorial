@@ -2,11 +2,11 @@
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/AHD-Creative-Solutions/AHDTutorial)
 
-> Questo lavoro è sotto la licenza internazionale di Creative Commons Attribution-ShareAlike 4.0. Per vedere una copia di questa licenza, visita https://creativecommons.org/licenses/by-sa/4.0/
+> Questo lavoro è sotto la licenza internazionale di Creative Commons Attribution-ShareAlike 4.0. Per vedere una copia di questa licenza, visita [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ## Introduzione
 
-Hai mai sentito che il mondo sta diventando sempre più tecnologico e sei in qualche modo rimasto indietro? ti sei mai chiesta come creare un sito web ma non hai mai avuto abbastanza motivazione per iniziare? Hai mai pensato che il mondo del software è troppo complicato per te persino per provare a fare qualcosa per conto tuo?
+Hai mai sentito che il mondo sta diventando sempre più tecnologico e sei in qualche modo rimasto indietro? ti sei mai chiesto/a come creare un sito web ma non hai mai avuto abbastanza motivazione per iniziare? Hai mai pensato che il mondo del software è troppo complicato per te persino per provare a fare qualcosa per conto tuo?
 
 Beh, abbiamo buone notizie per te! La programmazione non è così complicata come sembra e vogliamo dimostrati quanto può essere divertente.
 
@@ -24,6 +24,5 @@ OK, cominciamo dall'inizio...
 
 ## Informazioni e contribuzioni
 
-Questo tutorial è mantenuto da [AHDCreative Solutions][4].
+Questo tutorial è mantenuto da [AHDCreative Solutions](https://ahsubs-design.com/).
 
- [4]: https://ahsubs-design.com/
