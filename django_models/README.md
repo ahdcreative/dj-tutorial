@@ -58,7 +58,7 @@ Puoi pensare ad un modello nel database come ad un foglio elettronico con colonn
 
 ### Creazione di un'applicazione
 
-Per mantenere tutto ordinato, creeremo un'applicazione diversa all'interno del nostro progetto. È molto bello avere tutto organizzato fin dall'inizio. Per creare un'applicazione abbiamo bisogno di eseguire il seguente comando nella console \(dalla cartella `djangogirls` dove si trova il file `manage.py`\):
+Per mantenere tutto ordinato, creeremo un'applicazione diversa all'interno del nostro progetto. È molto bello avere tutto organizzato fin dall'inizio. Per creare un'applicazione abbiamo bisogno di eseguire il seguente comando nella console \(dalla cartella `ahsubsdesign` dove si trova il file `manage.py`\):
 
 ```
 (myvenv) ~/ahasubsdesign$ python manage.py startapp blog
@@ -85,7 +85,6 @@ ahsubsdesign
      ├── models.py
      ├── tests.py
      └── views.py
-
 ```
 
 Dopo aver creato un'applicazione dobbiamo dire a Django che dovrebbe utilizzarla. Lo facciamo nel file `mysite/settings.py`. Dobbiamo trovare `INSTALLED_APPS` ed aggiungere una riga che contenga `'blog',` appena sopra`)`. Quindi il prodotto finale dovrebbe assomigliare a questo:
