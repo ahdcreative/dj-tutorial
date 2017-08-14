@@ -15,14 +15,13 @@ I nomi di alcuni file e cartelle sono molto importanti per Django. Non dovresti 
 Dovresti eseguire nella tua console MacOS o Linux il seguente comando; **non dimenticarti di aggiungere il punto **`.`** alla fine **:
 
 ```
-(myvenv) ~/djangogirls$ django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile miosito .
+(myvenv) ~/ahsubsdesign$ django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile miosito .
 ```
 
 Su Windows; **non dimenticarti di aggiungere il punto **`.`** alla fine**:
 
 ```
-(myvenv) C:\Users\Name\djangogirls> django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile miosito .
-
+(myvenv) C:\Users\Name\ahsubsdesign> django-admin startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile miosito .
 ```
 
 > Il punto `.` è cruciale perché dice allo script d'installare Django nell'attuale directory \(quindi il punto `.` è un riferimento di abbreviazione\)
