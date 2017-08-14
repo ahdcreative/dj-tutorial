@@ -24,10 +24,6 @@ In questo workshop costruirai un blog, e ci sono alcuni task dedicati all'impost
 
 {% include "/code_editor/instructions.md" %}
 
-# Installare Git
-
-{% include "/deploy/install_git.md" %}
-
 # Creare un account Heroku
 
 Vai su [Heroku.com](https://www.heroku.com) e iscriviti per un nuovo account gratuito.
