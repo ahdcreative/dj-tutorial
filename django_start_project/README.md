@@ -26,7 +26,7 @@ Su Windows; **non dimenticarti di aggiungere il punto **`.`** alla fine**:
 
 > Il punto `.` è cruciale perché dice allo script d'installare Django nell'attuale directory \(quindi il punto `.` è un riferimento di abbreviazione\)
 >
-> **Nota** Quando digiti i comandi sopra, ricorda che si digita soltanto la parte che inizia con `django-admin` oppure `django-admin.py`. Le parti mostrate qui come `(myvenv) ~/djangogirls$` e `(myvenv) C:\Users\Name\djangogirls>` sono solo esempi del prompt che starà invitando il tuo input sulla tua command line.
+> **Nota** Quando digiti i comandi sopra, ricorda che si digita soltanto la parte che inizia con `django-admin` oppure `django-admin.py`. Le parti mostrate qui come `(myvenv) ~/ahsubsdesign$` e `(myvenv) C:\Users\Nameahsubsdesign>` sono solo esempi del prompt che starà invitando il tuo input sulla tua command line.
 
 `django-admin.py` è uno script che creerà le cartelle ed i file per te. Adesso dovresti avere una struttura di directory simile a questa:
 
