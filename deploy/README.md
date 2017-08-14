@@ -13,18 +13,12 @@ Come hai già visto, un sito internet ha sede in un server. Ci sono tantissimi s
 
 Git è un "sistema di controllo versione" utilizzato da un sacco di programmatori. Questo software può tracciare le modifiche nel corso del tempo ad i file, in questo modo puoi ripristinare successivamente una specifica versione. Un pò come l'opzione "traccia modifiche" in Microsoft Word, ma molto più potente.
 
-## Installare Git
-
-> **Nota** Se hai già fatto la procedura di installazione, non devi farlo di nuovo - si può passare alla sezione successiva e iniziare a creare il tuo repository Git.
-
-{% include "/deploy/install_git.md" %}
-
-## Heroku CLI
+### Heroku CLI
 > **Nota** Se hai già fatto la procedura di installazione, non devi farlo di nuovo - si può passare alla sezione successiva e iniziare a creare il tuo repository.
 
-### Windows
+#### Windows
 È possibile scaricare Heroku cli dal sito ufficiale: https://devcenter.heroku.com/articles/heroku-cli#download-and-install.
-### MacOS
+#### MacOS
 È possibile scaricare Heroku cli dal sito ufficiale: https://devcenter.heroku.com/articles/heroku-cli#download-and-install.
 
 
